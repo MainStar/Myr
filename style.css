@@ -1,0 +1,53 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.clinic_tab li{
+	float: right;
+	list-style: none;
+	padding-right: 3%; 
+	padding-top: 2%;
+}
+.clinic_tab li a{
+	display: block;
+  	/*padding: 6px 32px 0px;*/
+  	text-decoration: none;
+  	text-align: center;
+}
+.clinic_tab li a:hover{
+	background: #E0FFFF;
+	border-bottom:2px solid #676a6c;
+	padding-bottom: 4%;
+}
+/*Прячем все под меню*/
+.clinic_tab li ul{
+	display: none;
+}
+/*****************************/
+.clinic_tab li:hover ul{
+	padding-top: 1%;
+	display: block;
+	position: absolute;
+}
+.clinic_tab li:hover ul li{
+	padding-top: 3%;
+	float: none;
+}
+.clinic_tab ul li  {
+	list-style-type: none;
+  	padding: 6px 12px 0px;
+}
+.clinic_tab ul li:hover  {
+  padding: 6px 12px 0px;
+}
+.clinic_tab ul li a {
+  color: Black;
+  padding: 6px 12px 0px;
+}
+.clinic_tab ul li a:hover {
+color: Black;
+padding: 6px 12px 0px;
+}
+.clinic_tab li:hover ul li a {
+  padding: 0px 0 8px;
+}
