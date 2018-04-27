@@ -2,52 +2,44 @@
 	margin: 0px;
 	padding: 0px;
 }
+/* Настройка онвного первого меню (Первых основных 4 - х пунктов) */
+.clinic_tab{
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
 .clinic_tab li{
 	float: right;
-	list-style: none;
-	padding-right: 3%; 
-	padding-top: 2%;
+	border-right: 1px solid #bbb;
 }
-.clinic_tab li a{
+.clinic_tab li > a{
 	display: block;
-  	/*padding: 6px 32px 0px;*/
-  	text-decoration: none;
-  	text-align: center;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
-.clinic_tab li a:hover{
-	background: #E0FFFF;
-	border-bottom:2px solid #676a6c;
-	padding-bottom: 4%;
+.clinic_tab li > a:hover{
+	background-color: #111;
+	/*border-bottom:3px solid white;*/
+	padding-bottom: 13%;
 }
-/*Прячем все под меню*/
+/* Прячем все подменю */
 .clinic_tab li ul{
 	display: none;
 }
-/*****************************/
+/*   //////////////////////////////////////////////////////////////////  */
+
+/* Настраиваем выпадание всех ПОДМЕНЮ */
 .clinic_tab li:hover ul{
-	padding-top: 1%;
 	display: block;
+	list-style-type: none;
+	background-color: #333;
 	position: absolute;
 }
-.clinic_tab li:hover ul li{
-	padding-top: 3%;
-	float: none;
-}
-.clinic_tab ul li  {
-	list-style-type: none;
-  	padding: 6px 12px 0px;
-}
-.clinic_tab ul li:hover  {
-  padding: 6px 12px 0px;
-}
-.clinic_tab ul li a {
-  color: Black;
-  padding: 6px 12px 0px;
-}
-.clinic_tab ul li a:hover {
-color: Black;
-padding: 6px 12px 0px;
-}
-.clinic_tab li:hover ul li a {
-  padding: 0px 0 8px;
+.clinic_tab ul li{
+	width: 100%;
+	float: left;
 }
