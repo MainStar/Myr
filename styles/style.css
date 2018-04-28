@@ -1,0 +1,82 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+/* Конфишурация главного контейнера */
+.main_container{
+	width: 100%;
+	height: 2300px;
+}
+/**************************************/
+
+/* Настройка блока ХЕДЕРА */
+.block_head{
+	width: 100%;
+	height: 33.3333333333%;
+	background: url("images/dog.jpeg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center; 
+}
+/**-*****************************/
+
+/* Конфигурация блока меню */
+/* Настройка онвного первого меню (Первых основных 4 - х пунктов) */
+.menu{
+	padding-right: 5%;
+}
+.clinic_tab{
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.clinic_tab li{
+	float: right;
+	/*border-left: 1px solid #bbb;
+	border-right: 1px solid #bbb;*/
+}
+.clinic_tab li > a{
+	display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight:bold;
+}
+.clinic_tab li > a:hover{
+	opacity: 0.4;
+	border-bottom:3px solid #00008B;
+	padding-bottom: 13%;
+}
+/* Прячем все подменю */
+.clinic_tab li ul{
+	display: none;
+	width: 17.5%;
+}
+/*   //////////////////////////////////////////////////////////////////  */
+
+/* Настраиваем выпадание всех ПОДМЕНЮ */
+.clinic_tab li:hover ul{
+	opacity: 1;
+	display: block;
+	list-style-type: none;
+	margin-top: 0.1%;
+	background-color: white;
+	position: absolute;
+	border-radius: 0 15px; 
+}
+.clinic_tab ul li > a {
+	color: black;
+}
+.clinic_tab ul li a:hover{
+	background-color: #1E90FF;
+	color: white;
+}
+.clinic_tab ul li{
+	width: 100%;
+	float: left;
+}
+/**************** Конец когнфигурации меню **************** */
+
+/* Конфигурация блока  */
