@@ -95,3 +95,58 @@
 	font-size: 200%;
 	text-align: center;
 }
+/*********** Конец конфигурации ХЕДЕРА ***************/
+
+/* Конфигурация блока БОДИ */
+.block_body{
+	width: 100%;
+	height: 33.33333%;
+}
+.services{
+	position: relative;
+	width: 100%;
+	height: 80%;
+	margin-top: 5%;
+}
+/* Конфигурация контейнера услуг первого блока */
+.services_container1{
+	position: absolute;
+	width: 30%;
+	height: 100%; 
+}
+.services_container1 > .service{
+	width: 100%;
+	height: 47%;
+	background: black;
+	margin: 5%;
+}
+/* ************************************* */
+
+/* Конфигурация контейнера услуг второго блока */
+.services_container2{
+	position: absolute;
+	width: 30%;
+	height: 100%;
+	left: 33.5%;
+}
+.services_container2 > .service{
+	width: 100%;
+	height: 47%;
+	background: black;
+	margin: 5%;
+}
+/* ************************************************* */
+
+/* Конфигурация контейнера услег третьего блока */
+.services_container3{
+	position: absolute;
+	width: 30%;
+	height: 100%;
+	left: 67%;
+}
+.services_container3 > .service{
+	width: 100%;
+	height: 47%;
+	background: black;
+	margin: 5%;
+}
