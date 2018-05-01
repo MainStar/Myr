@@ -4,24 +4,14 @@
 	<title>Ветеринарная клиника «ЛяМур»</title>
 	<meta charset="utf-8"/>
 	<link rel="stylesheet" type="text/css" href="styles/style.css"/>
-	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBbEdIP3fPgSHadoxXBWCPKIQWrJWPJSGI&callback=myMap"></script>
-	<script type="text/javascript">
-		function myMap() {
-    		var mapOptions = {
-	   		    center: new google.maps.LatLng(51.5, -0.12),
-	  		    zoom: 10,
- 			    mapTypeId: google.maps.MapTypeId.HYBRID
- 			}
-			var map = new google.maps.Map(document.getElementByClassName("map"), mapOptions);
-		}
-	</script>
+	<link rel="stylesheet" type="text/css" href="styles/body_blocks.css">
 </head>
 <body>
 	<div class="main_container">
 		<div class="block_head">
 			<div class="menu">
 				<ul class="clinic_tab">
-					<li><a href=" ">Контакты</a></li>
+					<li><a href="#contacts">Контакты</a></li>
 						<li><a href=" ">Врачам</a></li>
 					<li><a href=" ">Услуги</a>
 						<ul class="services_tab">
@@ -54,7 +44,12 @@
 			<div class="services">
 				<div class="services_container1">
 					<div class="service">
-						
+						<div class="service1">
+							<img src="images/big.jpg"/>
+							<div class="service1_info">
+								
+							</div>
+						</div>
 					</div>
 					<div class="service">
 						
@@ -75,19 +70,80 @@
 					<div class="service">
 						
 					</div>
-				</div>	
+				</div>
+			</div>
+			<div class="button_services">
+				<a  href=""><h4>Все услуги</h4></a>
 			</div>
 		</div>
-		<div class="block_contacts">
+		<div class="block_contacts" id="contacts">
 			<div class="map">
 				
 			</div>
 			<div class="contact_info">
-				
+				<div class="contacts">
+					<a style="font: 130% sans-serif;"><h1>Контакты</h1></a>
+					<p><a style="font: 105% sans-serif">Для получения бесплатной конслультации ветеринара - позвоните по телефону: +380 (68) 577-88-77</a></p>
+					<p><a style="font:105% sans-serif">Прием животных в клинике по адресу:</a></p>
+					<p>
+						<a style="font: 180% sans-serif"><h3>Кривой Рог</h3></a>
+						<p>
+							<a style="font:105% sans-serif">Проспект Гагарина 27</a>
+							<p><a style="font:105% sans-serif">+380 (68) 577-88-77</a></p>
+						</p>
+						<p>
+							<a style="font: 210% sans-serif;">Консультация ветврача</a>
+							<p><a style="font:105% sans-serif">+380 (68) 577-88-77</a></p>
+						</p>
+					</p>
+				</div>
 			</div>
 		</div>
 		<div class="block_footer">
-			
+			<div class="footer_services">
+				<div class="info">
+					<a><h2>Услуги</h2></a>
+					<a href=" "><h4>Хирургия</h4></a>
+					<a href=" "><h4>Вакцинация</h4></a>
+					<a href=" "><h4>Чипировние</h4></a>
+					<a href=" "><h4>Ветврач на дом</h4></a>
+					<a href=" "><h4>Весь список услуг</h4></a>
+				</div>
+			</div>
+			<div class="footer_clinic">
+				<div class="info">
+					<a><h2>Клиника</h2></a>
+					<a href=" "><h4>Врачи</h4></a>
+					<a href=" "><h4>Фотогалерея</h4></a>
+				</div>
+			</div>
+			<div class="footer_doctors">
+				<div class="info">
+					<a><h2>Врачам</h2></a>
+					<a href=" "><h4>Практика для студентов</h4></a>
+					<a href=" "><h4>Вакансии</h4></a>
+				</div>
+			</div>
+			<div class="footer_contacts">
+				<div class="info">
+					<a><h2>Контакты</h2></a>
+					<div class="info_box">
+						<a style="font: 109% sans-serif"><h4>Звоните:</h4></a>
+						<a><h4>+380 (68) 577-88-77</h4></a>
+					</div>
+					<div class="info_box">
+						<a style="font: 109% sans-serif"><h4>Пишите:</h4></a>
+						<a><h4>Email</h4></a>
+					</div>
+					<div class="info_box">
+						<a style="font: 109% sans-serif"><h4>Приезжайте:</h4></a>
+						<a>
+							<h4>Кривой Рог</h4>
+							<h4>Проспект Гагарина 27</h4>
+						</a>
+					</div>
+				</div>
+			</div>
 		</div>
 	</div>
 </body>
