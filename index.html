@@ -4,6 +4,17 @@
 	<title>Ветеринарная клиника «ЛяМур»</title>
 	<meta charset="utf-8"/>
 	<link rel="stylesheet" type="text/css" href="styles/style.css"/>
+	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBbEdIP3fPgSHadoxXBWCPKIQWrJWPJSGI&callback=myMap"></script>
+	<script type="text/javascript">
+		function myMap() {
+    		var mapOptions = {
+	   		    center: new google.maps.LatLng(51.5, -0.12),
+	  		    zoom: 10,
+ 			    mapTypeId: google.maps.MapTypeId.HYBRID
+ 			}
+			var map = new google.maps.Map(document.getElementByClassName("map"), mapOptions);
+		}
+	</script>
 </head>
 <body>
 	<div class="main_container">
@@ -65,6 +76,14 @@
 						
 					</div>
 				</div>	
+			</div>
+		</div>
+		<div class="block_contacts">
+			<div class="map">
+				
+			</div>
+			<div class="contact_info">
+				
 			</div>
 		</div>
 		<div class="block_footer">
