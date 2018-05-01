@@ -1,26 +1,188 @@
+/* Конфигурация первого бокса с УСЛУГАМИ */
 .service1{
 	position: relative;
 	overflow: hidden;
 	width: 100%;
 	height: 100%;
 }
-.service img{
+.service1 img{
 	position: absolute;
 	width: 100%;
 	height: 100%;
 	-moz-transition: all 1s ease-out;
- -o-transition: all 1s ease-out;
- -webkit-transition: all 1s ease-out;
+ 	-o-transition: all 1s ease-out;
+ 	-webkit-transition: all 1s ease-out;
+	background: black;
+ 	opacity: 0.4;
 }
 .service1 img:hover{
+	opacity: 0.5;
 	-webkit-transform: scale(1.1);
  	-moz-transform: scale(1.1);
  	-o-transform: scale(1.1);
 }
-.service1_info{
+.service1 > a{
+	margin: 10%;
+	position: absolute;
+	color: white;
+	font:150% sans-serif;
+}
+/* Настраивает ТЕКСТ ОБЪЯСНЕНИЯ НА ВСЕХ БЛОКАХ */
+.service_info{
+	position: absolute;
+	margin-top: 20%;
+	margin-left: 10%;
+	font:100% sans-serif;
+	color: white;
+}
+/* ********************************************* */
+/* ********************************************* */
+/* Конфигурация второго блока в блоках УСЛУГ */
+.service2{
+	position: relative;
+	overflow: hidden;
 	width: 100%;
 	height: 100%;
+}
+.service2 img{
 	position: absolute;
+	width: 100%;
+	height: 100%;
+	-moz-transition: all 1s ease-out;
+ 	-o-transition: all 1s ease-out;
+ 	-webkit-transition: all 1s ease-out;
 	background: black;
-	opacity: 0.2;
+ 	opacity: 0.4;
+}
+.service2 img:hover{
+	opacity: 0.6;
+	-webkit-transform: scale(1.1);
+ 	-moz-transform: scale(1.1);
+ 	-o-transform: scale(1.1);
+}
+.service2 > a{
+	margin: 10%;
+	position: absolute;
+	color: white;
+	font:150% sans-serif;
+}
+/* ********************************************* */
+/* Конфигурация Третьего блока в блоках УСЛУГ */
+.service3{
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+	height: 100%;
+}
+.service3 img{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	-moz-transition: all 1s ease-out;
+ 	-o-transition: all 1s ease-out;
+ 	-webkit-transition: all 1s ease-out;
+	background: black;
+ 	opacity: 0.4;
+}
+.service3 img:hover{
+	opacity: 0.5;
+	-webkit-transform: scale(1.1);
+ 	-moz-transform: scale(1.1);
+ 	-o-transform: scale(1.1);
+}
+.service3 > a{
+	margin: 10%;
+	position: absolute;
+	color: white;
+	font:150% sans-serif;
+}
+/* ******************************************** */
+/* Конфигурация ЧЕТВЕРТОГО блока в блоках УСЛУГ */
+.service4{
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+	height: 100%;
+}
+.service4 img{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	-moz-transition: all 1s ease-out;
+ 	-o-transition: all 1s ease-out;
+ 	-webkit-transition: all 1s ease-out;
+	background: black;
+ 	opacity: 0.4;
+}
+.service4 img:hover{
+	opacity: 0.5;
+	-webkit-transform: scale(1.1);
+ 	-moz-transform: scale(1.1);
+ 	-o-transform: scale(1.1);
+}
+.service4 > a{
+	margin: 10%;
+	position: absolute;
+	color: white;
+	font:150% sans-serif;
+}
+/* ******************************************* */
+/* Конфигурация ПЯТОГО блока в блоках УСЛУГ */
+.service5{
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+	height: 100%;
+}
+.service5 img{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	-moz-transition: all 1s ease-out;
+ 	-o-transition: all 1s ease-out;
+ 	-webkit-transition: all 1s ease-out;
+	background: black;
+ 	opacity: 0.4;
+}
+.service5 img:hover{
+	opacity: 0.5;
+	-webkit-transform: scale(1.1);
+ 	-moz-transform: scale(1.1);
+ 	-o-transform: scale(1.1);
+}
+.service5 > a{
+	margin: 10%;
+	position: absolute;
+	color: white;
+	font:150% sans-serif;
+}
+/* ******************************************* */
+/* Конфигурация ШЕСТОГО блока в блоках УСЛУГ */
+.service6{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	overflow: hidden;
+}
+.service6 img{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	-moz-transition: all 1s ease-out;
+ 	-o-transition: all 1s ease-out;
+ 	-webkit-transition: all 1s ease-out;
+	background: black;
+ 	opacity: 0.4;
+}
+.service6 img:hover{
+	opacity: 0.5;
+	-webkit-transform: scale(1.1);
+ 	-moz-transform: scale(1.1);
+ 	-o-transform: scale(1.1);
+}
+.service6 > a{
+	margin: 10%;
+	position: absolute;
+	color: white;
+	font:150% sans-serif;
 }
