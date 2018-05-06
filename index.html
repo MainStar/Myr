@@ -5,6 +5,8 @@
 	<meta charset="utf-8"/>
 	<link rel="stylesheet" type="text/css" href="styles/style.css"/>
 	<link rel="stylesheet" type="text/css" href="styles/body_blocks.css">
+	<script type="text/javascript" src="js/loadMap.js"></script>
+	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBbEdIP3fPgSHadoxXBWCPKIQWrJWPJSGI=initMap"></script>
 </head>
 <body>
 	<div class="main_container">
@@ -34,11 +36,11 @@
 					</li>
 				</ul>
 			</div>
-			<div class="info_head_block">
+			<!--<div class="info_head_block">
 				<div class="clinic_name">
 					<a><h3>Ветеринарная клиника «ЛяМур»</h3></a>
-				</div>				
-			</div>
+				</div>
+			</div>-->
 		</div>
 		<div class="block_body">
 			<div class="services">
@@ -92,27 +94,39 @@
 				</div>
 			</div>
 			<div class="button_services">
-				<a  href=""><h4>Все услуги</h4></a>
+				<a  href=" "><h4>Все услуги</h4></a>
 			</div>
 		</div>
 		<div class="block_contacts" id="contacts">
-			<div class="map">
+			<div class="map" id="map">
 				
 			</div>
 			<div class="contact_info">
 				<div class="contacts">
-					<a style="font: 130% sans-serif;"><h1>Контакты</h1></a>
+					<a style="font: 110% sans-serif;"><h1>Контакты</h1></a>
 					<p><a style="font: 105% sans-serif">Для получения бесплатной конслультации ветеринара - позвоните по телефону: +380 (68) 577-88-77</a></p>
 					<p><a style="font:105% sans-serif">Прием животных в клинике по адресу:</a></p>
 					<p>
 						<a style="font: 180% sans-serif"><h3>Кривой Рог</h3></a>
 						<p>
-							<a style="font:105% sans-serif">Проспект Гагарина 27</a>
-							<p><a style="font:105% sans-serif">+380 (68) 577-88-77</a></p>
+							<a style="font:103% sans-serif">Проспект Гагарина 27</a>
+							<p><a style="font:103% sans-serif">+380 (68) 577-88-77</a></p>
 						</p>
 						<p>
-							<a style="font: 210% sans-serif;">Консультация ветврача</a>
-							<p><a style="font:105% sans-serif">+380 (68) 577-88-77</a></p>
+							<a style="font: 190% sans-serif;">Консультация ветврача</a>
+							<p><a style="font:103% sans-serif">+380 (68) 577-88-77</a></p>
+						</p>
+						<p>
+							<a style="font: 190% sans-serif;">Режим работы</a>
+							<p><a style="font:103% sans-serif">
+								Понедельник - Пятница: с 9 - 19
+							</a></p>
+							<p><a style="font:103% sans-serif">
+								Суббота - Воскресенье: с 9 - 17
+							</a></p>
+							<p><a style="font:103% sans-serif">
+								В праздничные дни: сокращеный рабочий день
+							</a></p>
 						</p>
 					</p>
 				</div>
@@ -152,7 +166,7 @@
 					</div>
 					<div class="info_box">
 						<a style="font: 109% sans-serif"><h4>Пишите:</h4></a>
-						<a><h4>Email</h4></a>
+						<a><h4>veterinari_doktor@ukr.net</h4></a>
 					</div>
 					<div class="info_box">
 						<a style="font: 109% sans-serif"><h4>Приезжайте:</h4></a>
