@@ -12,21 +12,43 @@
 /* Настройка блока ХЕДЕРА */
 .block_head{
 	width: 100%;
-	height: 1%;
-	z-index: 1;
-	/*background: url("../images/dog.jpeg");*/
-	/*background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center; */
+	height: 5%;
+	background: linear-gradient(to top, #4169E1, #87CEFA);
 }
 /**-*****************************/
 
 /* Конфигурация блока меню */
 /* Настройка онвного первого меню (Первых основных 4 - х пунктов) */
+.addres_in_head{
+	float: left;
+	margin-left: 2%;
+	margin-top: 0.3%;
+	box-shadow: 10px solid black;
+	width: 37%;
+	background: yellow;
+}
+.addres{
+	float: left;
+	margin-left: 5%;
+}
+.phone{
+	float: right;
+	margin-right: 7%;
+}
+.name_in_head{
+	float: left;
+	width: 23%;
+	margin-left: 2%;
+	margin-top: 1%;
+	color: white;
+	font:93% sans-serif;
+}
 .menu{
-	position: relative;
+	float: right;
+	width: 30%;
+	height: 100%;
 	background: linear-gradient(to top, #4169E1, #87CEFA);
-	padding-right: 5%;
+	padding-right:0.8%;
 	opacity: 2;
 }
 .clinic_tab{
@@ -108,7 +130,7 @@
 	position: relative;
 	width: 100%;
 	height: 80%;
-	margin-top: 5%;
+	margin-top: 2.5%;
 }
 /* Конфигурация контейнера услуг первого блока */
 .services_container1{
